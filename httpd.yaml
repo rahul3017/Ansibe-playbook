@@ -1,8 +1,8 @@
 ---
 - name: my ansible
   hosts: all
-  remote_user: root
-  become: true
+  #remote_user: root
+  become: yes
   tasks:
         - name: intall httpd
           yum:
