@@ -2,10 +2,10 @@
 - hosts: all 
   become: yes
   tasks:
-  -name: ping the server
-   ping:
-   
-  -name: install apache on ubuntu
-   apt:
-    name: apache2
-    state: present
+   -name: ping the server
+     ping:
+
+   -name: install apache on ubuntu
+     apt:
+      name: apache2
+      state: present
