@@ -1,6 +1,6 @@
 ---
 - name: my ansible
-  hosts: webserver
+  hosts: all
   remote_user: root
   become: true
   tasks:
