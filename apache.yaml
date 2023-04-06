@@ -6,6 +6,6 @@
      ping
 
    -name: install apache on ubuntu
-     apt:
+     apt
       name: apache2
       state: present
