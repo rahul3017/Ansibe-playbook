@@ -4,6 +4,7 @@
   tasks:
   -name: ping the server
    ping:
+   
   -name: install apache on ubuntu
    apt:
     name: apache2
